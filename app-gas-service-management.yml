@@ -10,7 +10,7 @@ spring:
         generate-ddl: false
         hibernate:
             ddl-auto: none
-        show-sql: truespring:
+        show-sql: true:
     datasource:
         driver-class-name: org.postgresql.Driver
         password: AppGas123!@#
