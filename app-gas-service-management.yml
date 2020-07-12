@@ -1,0 +1,25 @@
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        password: AppGas123!@#
+        platform: postgresql
+        url: jdbc:postgresql://localhost:5432/appgas
+        username: appgas
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        generate-ddl: false
+        hibernate:
+            ddl-auto: none
+        show-sql: truespring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        password: AppGas123!@#
+        platform: postgresql
+        url: jdbc:postgresql://localhost:5432/appgas
+        username: appgas
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        generate-ddl: false
+        hibernate:
+            ddl-auto: none
+        show-sql: true
